@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+       
+        <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1163/1163661.png">
+        <title>Weather Forecast</title>
+        <link rel="stylesheet" href="main.css"/>       
+        
+    </head>
+
+    <body>
+       
+        <script src="script.js"></script>
+
+        <div class="center">
+            <div class="cloud"></div>
+            <ul class="sun">
+    
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        
+      
+        <br><br><br><br><br>
+       <center> <h1 >Weather Forecast Using API</h1></center>
+        
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+
+       <center> <h3>Search By City Name</h3> </center>
+       
+
+        <center>
+           
+            <input type="text" class="txtbox" id="txtbox" required onfocus="this.value=''">
+            
+            <br>
+
+            <input type="button" 
+             value="SEARCH" class="btn"  id="btn" onclick="forecast() ">
+
+        
+            <br> 
+
+           
+                <h4 id="name"></h4>
+                <h4 id="des"></h4>
+                <h4 id="tempf"></h4>
+                <h4 id="tempc"></h4>
+            
+
+          
+
+        </center> 
+    
+    </body>
+
+</html>
